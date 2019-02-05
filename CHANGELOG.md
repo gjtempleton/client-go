@@ -72,6 +72,9 @@ dynamic client scheme. ([#69125](https://github.com/kubernetes/kubernetes/pull/6
 * The function `Parallelize` is deprecated. Use `ParallelizeUntil` instead.
 ([#68403](https://github.com/kubernetes/kubernetes/pull/68403))
 
+* Moved from using glog to klog for logging.
+([#70889](https://github.com/kubernetes/kubernetes/pull/70889)
+
 * [k8s.io/apimachinery] Restrict redirect following from the apiserver to
 same-host redirects, and ignore redirects in some cases.
 ([#66516](https://github.com/kubernetes/kubernetes/pull/66516))
